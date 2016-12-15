@@ -20,10 +20,14 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "./node_modules/.bin/tsc -p .",
-    "map": "npm run build && node ./.tasks/map-regions-to-countries"
+    "map": "npm run build && node ./.tasks/map-regions-to-countries && node ./.tasks/add-states-to-countries"
   },
   "devDependencies": {
     "country-query": "^0.3.0",
     "typescript": "^2.0.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "provinces": "^1.8.2"
   }
 }
