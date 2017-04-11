@@ -27,7 +27,7 @@
     "typescript": "^2.0.10"
   },
   "dependencies": {
-    "lodash": "^4.17.2",
-    "provinces": "^1.8.2"
+    "lodash": "^4.0",
+    "provinces": "^1.0"
   }
 }
