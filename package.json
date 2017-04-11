@@ -2,7 +2,7 @@
   "name": "typed-countries",
   "version": "1.2.1",
   "description": "An array of the world's countries, complete with full TypeScript declaration support.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "typings": "dist/index.d.ts",
   "repository": "git@github.com:nozzlegear/typed-countries.git",
   "author": "Joshua Harms <joshua@nozzlegear.com>",
@@ -20,11 +20,10 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "./node_modules/.bin/tsc -p .",
-    "map": "npm run build && node ./.tasks/map-regions-to-countries && node ./.tasks/add-states-to-countries"
+    "map": "node ./.tasks/add-states-to-countries"
   },
   "devDependencies": {
     "country-query": "^0.3.0",
-    "typescript": "^2.0.10"
   },
   "dependencies": {
     "lodash": "^4.0",
