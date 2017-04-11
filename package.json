@@ -23,7 +23,7 @@
     "map": "node ./.tasks/add-states-to-countries"
   },
   "devDependencies": {
-    "country-query": "^0.3.0",
+    "country-query": "^0.3.0"
   },
   "dependencies": {
     "lodash": "^4.0",
